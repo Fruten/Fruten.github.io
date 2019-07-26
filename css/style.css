@@ -6,5 +6,6 @@ body {
   background-size: cover;
   font-family: 'Neucha', cursive;
   font-size: 8vw;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
