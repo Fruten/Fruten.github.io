@@ -4,6 +4,9 @@ body {
   background-repeat: no-repeat;    
   background-attachment: fixed;    
   background-size: cover;
+}
+
+div {
   font-family: 'Neucha', cursive;
   font-size: 8vw;
   width: 100%;
