@@ -9,10 +9,11 @@ body {
 div {
   font-family: 'Neucha', cursive;
   font-size: 8vw;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: 450px;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+  margin-top: -225px;
+  margin-left: -225px; /
 }
