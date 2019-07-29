@@ -19,3 +19,8 @@ audio {
 #pSize {
   font-size: 5vw;
 }
+
+@media only screen and (max-width: 767px) { 
+  body { 
+  background-image: url(../images/bg.jpg); 
+  } 
