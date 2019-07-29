@@ -9,7 +9,9 @@ body {
 div {
   font-family: 'Neucha', cursive;
   position: center;
-  text-align: center
+  text-align: center;
+  margin-top: -150px;
+  outline: 2px solid #000;
 }
 
 audio {
@@ -22,7 +24,7 @@ audio {
 
 aside {
   margin-right:45px;
-  margin-top: -200px;
+  margin-top: -150px;
   float:right;
   width:auto;
   position:relative;
