@@ -11,3 +11,7 @@ div {
   position: center;
   text-align: center
 }
+
+#pSize {
+  font-size: 5vw;
+}
