@@ -22,7 +22,8 @@ audio {
 
 aside {
   background: #f0f0f0;
-  padding: 20px;
-  width: auto;
-  float: right;
+  margin-left:45px;
+  float:left;
+  width:350px;
+  position:relative;
 }
