@@ -10,7 +10,7 @@ div {
   font-family: 'Neucha', cursive;
   position: center;
   text-align: center;
-  margin-top: -150px;
+  margin-top: -130px;
   outline: 2px solid #000;
 }
 
@@ -24,7 +24,7 @@ audio {
 
 aside {
   margin-right:45px;
-  margin-top: -150px;
+  margin-top: -80px;
   float:right;
   width:auto;
   position:relative;
