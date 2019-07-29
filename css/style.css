@@ -28,4 +28,5 @@ aside {
   width:auto;
   position:relative;
   font-size: 3vw;
+  outline: 2px solid #000;
 }
