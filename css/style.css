@@ -11,7 +11,7 @@ body {
   position: center;
   text-align: center;
   outline: 3px solid #000;
-   height: auto;
+  height: auto;
 }
 
 #pSize {
