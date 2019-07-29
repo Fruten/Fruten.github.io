@@ -12,6 +12,10 @@ div {
   text-align: center
 }
 
+audio {
+  position: center;
+}
+
 #pSize {
   font-size: 5vw;
 }
