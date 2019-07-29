@@ -24,6 +24,7 @@ aside {
   background: #f0f0f0;
   margin-left:45px;
   float:right;
-  width:350px;
+  width:auto;
   position:relative;
+  font-size: 1vw;
 }
