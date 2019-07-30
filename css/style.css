@@ -11,18 +11,28 @@ body {
   position: center;
   text-align: center;
   outline: 3px solid #000;
-  height: auto;
+  height: 100%;
 }
 
 #pSize {
-  font-size: 5vw;
+  font-size: 4vw;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
 }
 
-aside {
+#rightAside {
   margin-right:0px;
   margin-top:0px;
   float:right;
-  width:auto;
+  position:relative;
+  font-size: 3vw;
+  outline: 3px solid #000;
+}
+
+#leftAside {
+  margin-left:0px;
+  margin-top:0px;
+  float:left;
   position:relative;
   font-size: 3vw;
   outline: 3px solid #000;
