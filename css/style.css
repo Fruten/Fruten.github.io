@@ -15,8 +15,14 @@ body {
   height: 100%;
 }
 
-#pSize {
-  font-size: 4vw;
+#pSize1 {
+  font-size: 3.2vw;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+}
+
+#pSize2 {
+  font-size: 3.7vw;
   margin-top: 0.2em;
   margin-bottom: 0.4em;
 }
