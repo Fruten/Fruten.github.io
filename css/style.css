@@ -19,7 +19,7 @@ p {
 }
 
 #mainDiv {
-  height: 90%;
+  height: 80%;
   font-size: 5vw;
 }
 
@@ -32,10 +32,11 @@ p {
 }
 
 #leftAside {
-  margin-left:0px;
+  margin-right:0px;
   margin-top:0px;
   float:left;
   position:relative;
+  font-size: 3vw;
 }
 
 #downText {
