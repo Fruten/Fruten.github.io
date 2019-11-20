@@ -4,32 +4,23 @@ body {
   background-repeat: no-repeat;    
   background-attachment: fixed;    
   background-size: cover;
+  margin: 0;
+}
+
+html,body {
   height: 100%;
+  min-height: 100%;
+  font-family: 'Neucha', cursive;
+  text-align: center; 
+}
+
+p {
+  margin: 0;
 }
 
 #mainDiv {
-  font-family: 'Neucha', cursive;
-  text-align: center;
-  height: 100vh;
-  outline: 3px solid black;
-}
-
-#pSize0 {
+  height: 90%;
   font-size: 5vw;
-  margin-top: 0.2em;
-  margin-bottom: 0.4em;
-}
-
-#pSize1 {
-  font-size: 3.2vw;
-  margin-top: 0.2em;
-  margin-bottom: 0.4em;
-}
-
-#pSize2 {
-  font-size: 3.7vw;
-  margin-top: 0.2em;
-  margin-bottom: 0.4em;
 }
 
 #rightAside {
@@ -37,8 +28,7 @@ body {
   margin-top:0px;
   float:right;
   position:relative;
-  font-size: 2vw;
-  outline: 3px solid black;
+  font-size: 3vw;
 }
 
 #leftAside {
@@ -46,6 +36,10 @@ body {
   margin-top:0px;
   float:left;
   position:relative;
+}
+
+#downText {
   font-size: 2vw;
-  outline: 3px solid black;
+  height: 20%;
+  color: white;
 }
