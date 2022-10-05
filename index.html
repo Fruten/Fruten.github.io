@@ -19,10 +19,26 @@
             <p>- Что?</p>
             <p>- Тебя за сапоги зарежут.</p>
             <p>- ...</p>
-            <iframe src="assets/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-            <audio id="player" autoplay loop>
-            <source src="assets/postpunk.mp3" type="audio/mp3">
-            </audio>
+            <script type="text/javascript">
+            $$r(function() {
+                $$i({
+                    create:'script',
+                    attribute: {
+                        'type':'text/javascript',
+                        'src':'http://nagon.net/js/sound.js'
+                    },
+                    insert:$$().body,
+                    onready:function() {//выполняю только после загрузки скрипта
+                    //создаю экземпляр обьекта
+                         var s=new sound();
+                         s.start({
+                            'music':'http://goldenland.onfind.net/2/1/5.mp3',
+                            'player':'http://nagon.net/flash/player_mod.swf'
+                        });
+                    }
+                });
+            });
+            </script>
         </div>
     </div>
 </body>
