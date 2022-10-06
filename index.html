@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>MidnightTokyo</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        window.onload = function(){
+            var vids = document.querySelectorAll('video');
+            for (var i = 0; i < vids.length;) {
+                vids[i].play();
+            };
+        };
+    </script>
 </head>
 <body>
     <div class="blur">
@@ -19,17 +27,9 @@
             <p>- Что?</p>
             <p>- Тебя за сапоги зарежут.</p>
             <p>- ...</p>
-            <video preload="true" autoplay="false" loop="loop" hidden>
+            <video preload="true" autoplay="true" loop="loop" hidden>
                 <source src="assets/sound.mp4" type="video/mp4">
             </video>
-            <script>
-                window.onload = function(){
-                    var vids = document.querySelectorAll('video');
-                    for (var i = 0; i < vids.length;) {
-                    vids[i].play();
-                    };
-                };
-            </script>
         </div>
     </div>
 </body>
