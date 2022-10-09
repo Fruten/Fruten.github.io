@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'upheaval'; 
+	src: url(upheaval-pro-regular.otf); 
+}
+
+html {
+    /*background-image: url(../images/bg.jpg);
+    background-position: center center;    
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
+    background-size: cover;*/
+	background-color: black;
+    height: 100%;
+	scrollbar-width: none;
+}
+
+.maindiv {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'upheaval';
+	color: white;
+	font-size: 3vw;
+}
+
+p {
+	margin: 0.5em;
+}
+
+.moodle {
+	width: 15%;
+	image-rendering: pixelated;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
