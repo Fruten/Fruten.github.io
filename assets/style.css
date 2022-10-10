@@ -15,7 +15,6 @@ html {
 }
 
 .maindiv {
-	text-transform: uppercase;
 	text-align: center;
 	font-family: 'upheaval';
 	color: white;
@@ -33,4 +32,16 @@ p {
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+@media screen and (max-device-width: 1200px) {
+    .maindiv {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-device-width: 600px) {
+    .maindiv {
+        font-size: 7vw;
+    }
 }
